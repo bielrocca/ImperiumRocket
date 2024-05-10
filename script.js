@@ -2,11 +2,7 @@ $(document).ready(function() {
     $('.menu-hamburguer').click(function() {
         $('.menu').slideToggle()
     })
-
-    $('.menu').click(function() {
-        $('.menu').slideUp()
-    })
-
+    
     $('input[required]').each(function() {
         var label = $('label[for="' + $(this).attr('id') + '"]');
         label.append('<span style="color: red">*</span>');

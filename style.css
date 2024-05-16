@@ -63,6 +63,15 @@ header {
     clear: both;
 }
 
+section#produtos.module a {
+    transition: .5s;
+}
+
+section#produtos.module a:hover {
+    scale: 1.05;
+    transition: .5s;
+}
+
 .menu li:hover .submenu {
     display: block;
 }
